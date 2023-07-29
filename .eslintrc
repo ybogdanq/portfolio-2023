@@ -1,0 +1,41 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
+	"rules": {
+		"prettier/prettier": [
+			"error",
+			{
+				"endOfLine": "auto"
+			}
+		],
+		"semi": "off",
+		"no-plusplus": "off",
+		"prefer-const": "warn",
+		"eol-last": "off",
+		"no-console": ["off"],
+		"max-len": [
+			"error",
+			10000,
+			{
+				"ignoreUrls": true,
+				"ignoreRegExpLiterals": true,
+				"ignoreComments": true
+			}
+		],
+		"no-tabs": "off",
+		"no-alert": "off",
+		// "indent": [2, "tab"],
+		"prefer-destructuring": "off",
+		"no-trailing-spaces": [
+			"error",
+			{
+				"skipBlankLines": true,
+				"ignoreComments": true
+			}
+		]
+	}
+}
