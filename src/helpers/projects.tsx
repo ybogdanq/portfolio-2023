@@ -1,11 +1,15 @@
 import {
 	BiLogoReact,
-	BiLogoNodejs,
 	BiLogoAws,
 	BiLogoMongodb,
 	BiLogoTypescript,
-	BiLogoGithub
+	BiLogoGithub,
+	BiLogoPostgresql,
+	BiLogoSass,
+	BiLogoVuejs
 } from 'react-icons/bi'
+import { SiNestjs, SiExpress, SiTailwindcss } from 'react-icons/si'
+import { TbApi } from 'react-icons/tb'
 import { IconType } from 'react-icons'
 
 export interface IProject {
@@ -15,19 +19,23 @@ export interface IProject {
 
 export const projects: IProject[] = [
 	{
-		logo: '',
-		icons: [BiLogoReact, BiLogoNodejs, BiLogoTypescript, BiLogoAws, BiLogoMongodb, BiLogoGithub]
+		logo: './GobikCustomsLogo.png',
+		icons: [BiLogoReact, SiExpress, BiLogoTypescript, BiLogoAws, BiLogoMongodb, BiLogoGithub]
 	},
 	{
-		logo: '',
-		icons: [BiLogoReact, BiLogoNodejs, BiLogoTypescript, BiLogoAws, BiLogoMongodb, BiLogoGithub]
+		logo: './RenovationApp.png',
+		icons: [BiLogoReact, SiNestjs, SiTailwindcss, BiLogoTypescript, BiLogoPostgresql, BiLogoGithub]
 	},
 	{
-		logo: '',
-		icons: [BiLogoReact, BiLogoNodejs, BiLogoTypescript, BiLogoAws, BiLogoMongodb, BiLogoGithub]
+		logo: './WeatherApp.png',
+		icons: [BiLogoReact, BiLogoSass, BiLogoTypescript, BiLogoGithub, TbApi]
 	},
 	{
-		logo: '',
-		icons: [BiLogoReact, BiLogoNodejs, BiLogoTypescript, BiLogoAws, BiLogoMongodb, BiLogoGithub]
+		logo: './MovieaLogo.png',
+		icons: [BiLogoReact, BiLogoVuejs, BiLogoSass, BiLogoGithub, TbApi]
 	},
+	{
+		logo: './SubscriptionAppLogo.png',
+		icons: [BiLogoVuejs, BiLogoSass, BiLogoGithub]
+	}
 ]

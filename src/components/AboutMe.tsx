@@ -5,8 +5,8 @@ interface Props extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDi
 export const AboutMe: FC<Props> = ({ className, ...props }) => {
 	return (
 		<div className="mb-12" {...props}>
-			<h1 className="text-[30px] leading-9 font-semibold tracking-wide mb-6">About me 📝</h1>
-			<p className="text-lg max-w-[90%] tracking-wide">
+			<h1 className="text-[24px] sm:text-[30px] leading-9 font-semibold tracking-wide mb-3 sm:mb-6">About me 📝</h1>
+			<p className="text-sm sm:text-lg sm:max-w-[90%] tracking-normal sm:tracking-wide">
 				Ac nam leo mi pulvinar quam ullamcorper cras vestibulum sagittis. Velit arcu ullamcorper
 				mollis quis in. Vel tristique sit varius posuere lectus mauris consectetur scelerisque. Vel
 				sapien egestas donec ipsum est tincidunt diam adipiscing eu. Porttitor molestie porta proin
