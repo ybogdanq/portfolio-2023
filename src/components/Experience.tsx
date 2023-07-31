@@ -17,10 +17,12 @@ export const Experience: FC<Props> = ({ className, ...props }) => {
 					<span className="text-xs sm:text-lg leading-5 font-light">Mar. 2022 - Present</span>
 				</div>
 				<p className="text-sm sm:text-lg sm:max-w-[90%] tracking-normal sm:tracking-wide mb-5 sm:mb-7">
-					Ac nam leo mi pulvinar quam ullamcorper cras vestibulum sagittis. Velit arcu ullamcorper
-					mollis quis in. Vel tristique sit varius posuere lectus mauris consectetur scelerisque.
-					Vel sapien egestas donec ipsum est tincidunt diam adipiscing eu. Porttitor molestie porta
-					proin eleifend blandit mattis enim
+					Development focused agency that specialises in creating advanced
+					solutions for Shopify Plus platform. They offer services such as headless store
+					development, 3rd party system integration, data migration and high-performance custom app
+					development. CRISP is known for delivering high-quality, scalable, and reliable solutions
+					tailored to the specific needs of each client. They create solutions that increase sales,
+					improve customer experience and streamline business operations.
 				</p>
 				<ul className="text-sm sm:text-lg pl-4 list-disc [&>*]:leading-5 [&>*]:sm:leading-9 [&>*]:tracking-wide [&>*]:mb-2 [&>*]:sm:mb-0">
 					<li>

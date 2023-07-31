@@ -10,7 +10,7 @@ export const Skills: FC<Props> = ({ className, ...props }) => {
 				Skills 💪
 			</h1>
 			<p className="text-sm sm:text-lg max-w-[90%] tracking-normal sm:tracking-wide mb-5 sm:mb-8">
-				Semper senectus amet sodales mauris facilisis justo ac adipiscing.
+				Here&apos;s a skill set gainer throughout the career path
 			</p>
 			<div className="max-w-2xl grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-5 sm:gap-y-10">
 				{skills.map(({ type, items }) => (

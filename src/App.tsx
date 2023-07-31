@@ -8,7 +8,7 @@ import { Skills } from './components/Skills'
 function App() {
 	return (
 		<>
-			<div className="mx-auto px-4 sm:px-6 pt-14 sm:pt-17 md:pt-20 lg:pt-24 container flex flex-col">
+			<div className="mx-auto px-4 sm:px-6 pt-7 sm:pt-17 md:pt-20 lg:pt-24 container flex flex-col">
 				<div className="flex-1">
 					<DeveloperInfo />
 					<AboutMe />
