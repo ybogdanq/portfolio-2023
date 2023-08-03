@@ -36,6 +36,7 @@
 				"skipBlankLines": true,
 				"ignoreComments": true
 			}
-		]
+		],
+		"no-unused-vars": "off"
 	}
 }
