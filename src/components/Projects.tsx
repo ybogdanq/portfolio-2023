@@ -24,8 +24,13 @@ export const Projects: FC<Props> = ({ className, ...props }) => {
 		sliderRef.current?.swiper.slideNext()
 	}, [])
 
-	const projectEl = ({ logo, icons }: IProject) => (
-		<div className="cursor-pointer relative h-0 pt-[60%] bg-white border-[1px] border-solid border-black transition duration-150 sm:shadow-[0px_1px_7px_1px_rgba(0,_0,_0,_0.25)] sm:hover:shadow-[0px_2px_10px_5px_rgba(0,_0,_0,_0.25)] hover:scale-[1.005]">
+	const projectEl = ({ logo, icons, urls }: IProject) => (
+		<div className="relative h-0 pt-[60%] bg-white border-[1px] border-solid border-black transition duration-150 sm:shadow-[0px_1px_7px_1px_rgba(0,_0,_0,_0.25)] sm:hover:shadow-[0px_2px_10px_5px_rgba(0,_0,_0,_0.25)] hover:scale-[1.005]">
+			<div className="w-full h-full absolute inset-0 flex gap-2 items-center justify-center opacity-0 hover:opacity-100 transition-all duration-200 bg-black/[.45] text-white z-20 [&>*]:font-semibold [&>*]:stroke-black [&>*]:tracking-wider [&>*]:drop-shadow-[0px_0px_2px_rgba(0,0,0,1)]">
+				{urls?.github && <a href={urls.github}>Github</a>}
+				{urls?.website && <a href={urls.website}>Website</a>}
+				{!urls?.github && !urls?.website && <span>App is private</span>}
+			</div>
 			<div className="w-full h-full absolute inset-0 flex items-end justify-center">
 				<img
 					className="absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] max-w-[80%]"
