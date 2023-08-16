@@ -6,9 +6,11 @@ import {
 	BiLogoGithub,
 	BiLogoPostgresql,
 	BiLogoSass,
-	BiLogoVuejs
+	BiLogoVuejs,
+	BiLogoHtml5,
+	BiLogoJavascript
 } from 'react-icons/bi'
-import { SiNestjs, SiExpress, SiTailwindcss } from 'react-icons/si'
+import { SiNestjs, SiExpress, SiTailwindcss, SiGulp } from 'react-icons/si'
 import { TbApi } from 'react-icons/tb'
 import { IconType } from 'react-icons'
 
@@ -54,6 +56,14 @@ export const projects: IProject[] = [
 		urls: {
 			github: 'https://github.com/ybogdanq/SubsApp',
 			website: 'https://ybogdanq.github.io/SubsApp/'
+		}
+	},
+	{
+		logo: './Koibird.svg',
+		icons: [BiLogoHtml5, BiLogoSass, BiLogoJavascript, SiGulp, BiLogoGithub],
+		urls: {
+			github: 'https://github.com/ybogdanq/Koibird/tree/dev',
+			website: 'https://ybogdanq.github.io/Koibird/'
 		}
 	}
 ]

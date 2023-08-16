@@ -18,7 +18,7 @@ export const skills: ISkill[] = [
 	},
 	{
 		type: 'State managers',
-		items: ['Redux', 'MobX', 'VueX', "TanStack Query"]
+		items: ['Redux', 'MobX', 'VueX', "TanStack Query", "GraphQl"]
 	},
 	{
 		type: 'Apps',

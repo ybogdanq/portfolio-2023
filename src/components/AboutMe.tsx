@@ -20,10 +20,17 @@ export const AboutMe: FC<Props> = ({ className, ...props }) => {
 				<br />
 				But nothing stops only development itself, Bohdan always trying to get better in all the
 				areas around him.{' '}
-				<span className='font-semibold'>
+				<span className="font-semibold">
 					The main focus is to live interesting life surrounding him with interesting and cool
 					people.
 				</span>
+			</p>
+			<p className="text-sm sm:text-lg font-light">
+				<br />
+				You can always reach out to me through email:{' '}
+				<a href="mailto:y.bogdan.work@gmail.com" target="_blank" className="font-semibold">
+					y.bogdan.work@gmail.com
+				</a>
 			</p>
 		</div>
 	)
