@@ -8,9 +8,20 @@ import {
 	BiLogoSass,
 	BiLogoVuejs,
 	BiLogoHtml5,
-	BiLogoJavascript
+	BiLogoJavascript,
+	BiLogoNodejs
 } from 'react-icons/bi'
-import { SiNestjs, SiExpress, SiTailwindcss, SiGulp } from 'react-icons/si'
+import {
+	SiNestjs,
+	SiExpress,
+	SiTailwindcss,
+	SiGulp,
+	SiAmazondynamodb,
+	SiAmazonsqs,
+	SiSwagger
+} from 'react-icons/si'
+
+import { CgServerless } from 'react-icons/cg'
 import { TbApi } from 'react-icons/tb'
 import { IconType } from 'react-icons'
 
@@ -22,9 +33,36 @@ export interface IProject {
 
 export const projects: IProject[] = [
 	{
+		logo: './Link-shortener.png',
+		icons: [
+			CgServerless,
+			BiLogoAws,
+			SiAmazondynamodb,
+			SiAmazonsqs,
+			BiLogoReact,
+			BiLogoTypescript,
+			SiSwagger
+		],
+		urls: {
+			github: 'https://github.com/ybogdanq/link-shortener'
+		}
+	},
+	{
 		logo: './GobikCustomsLogo.png',
 		icons: [BiLogoReact, SiExpress, BiLogoTypescript, BiLogoAws, BiLogoMongodb, BiLogoGithub],
 		urls: null
+	},
+	{
+		logo: './Ternopil-survey.png',
+		icons: [SiExpress, BiLogoNodejs, BiLogoReact, SiTailwindcss],
+		urls: {
+			website: 'https://survey-xi-nine.vercel.app/'
+		}
+	},
+	{
+		logo: './Handymen.png',
+		icons: [BiLogoReact, SiTailwindcss, TbApi],
+		urls: { website: 'https://handymen-website.vercel.app/' }
 	},
 	{
 		logo: './RenovationApp.png',

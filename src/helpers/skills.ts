@@ -14,11 +14,11 @@ export const skills: ISkill[] = [
 	},
 	{
 		type: 'Databases and ORMs',
-		items: ['MongoDB', 'Mongoose', 'PostgresQL', 'Prisma']
+		items: ['PostgreSQL', 'MongoDB', 'DynamoDB', 'Redis', 'Mongoose', 'Prisma', 'TypeOrm']
 	},
 	{
 		type: 'State managers',
-		items: ['Redux', 'MobX', 'VueX', "TanStack Query", "GraphQl"]
+		items: ['Redux', 'MobX', 'VueX', 'TanStack Query', 'GraphQl']
 	},
 	{
 		type: 'Apps',
@@ -26,6 +26,6 @@ export const skills: ISkill[] = [
 	},
 	{
 		type: 'Environment',
-		items: ['Visual Studio', 'Git Bash', 'Command', 'Prompt']
+		items: ['Visual Studio', 'Git Bash', 'Command', 'Prompt', 'Docker']
 	}
 ]
