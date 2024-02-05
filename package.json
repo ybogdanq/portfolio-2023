@@ -1,7 +1,18 @@
 {
 	"name": "portfolio-2023",
 	"private": true,
-	"version": "0.0.0",
+	"author": {
+		"email": "y.bogdan.work@gmail.com",
+		"name": "Bohdan Yereshchenko",
+		"url": "https://github.com/ybogdanq"
+	},
+	"keywords": [
+		"react",
+		"portfolio",
+		"tailwind",
+		"vite"
+	],
+	"version": "1.0.5",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",

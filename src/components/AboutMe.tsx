@@ -4,7 +4,7 @@ interface Props extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDi
 
 export const AboutMe: FC<Props> = ({ className, ...props }) => {
 	return (
-		<div className="mb-12" {...props}>
+		<section className="mb-12" {...props}>
 			<h1 className="text-[24px] sm:text-[30px] leading-9 font-semibold tracking-wide mb-3 sm:mb-6">
 				About me 📝
 			</h1>
@@ -32,6 +32,6 @@ export const AboutMe: FC<Props> = ({ className, ...props }) => {
 					y.bogdan.work@gmail.com
 				</a>
 			</p>
-		</div>
+		</section>
 	)
 }

@@ -4,7 +4,7 @@ interface Props extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDi
 
 export const DeveloperInfo: FC<Props> = ({ className, ...props }) => {
 	return (
-		<div
+		<section
 			className="grid grid-cols-1 sm:grid-cols-[155px_1fr] gap-10 items-center mb-8 sm:mb-16"
 			{...props}
 		>
@@ -17,6 +17,6 @@ export const DeveloperInfo: FC<Props> = ({ className, ...props }) => {
 				</h1>
 				<p className="text-xl sm:text-2xl font-light">Full-stack developer</p>
 			</div>
-		</div>
+		</section>
 	)
 }

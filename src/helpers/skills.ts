@@ -6,7 +6,7 @@ export interface ISkill {
 export const skills: ISkill[] = [
 	{
 		type: 'Frameworks & Libs',
-		items: ['React', 'Next.js', 'Vue 2', 'Node', 'Nest.js', 'Express', 'Koa']
+		items: ['React', 'Next.js', 'Vue 2', 'Node', 'Nest.js', 'Express', 'Serverless', 'Koa']
 	},
 	{
 		type: 'Styling',
