@@ -13,9 +13,7 @@ export const Experience: FC<Props> = ({ className, ...props }) => {
 				{experience.map(exp => (
 					<article>
 						<div className="mb-2 sm:mb-4 flex justify-start items-center gap-2 sm:gap-3">
-							<h1 className="uppercase text-lg sm:text-2xl font-semibold sm:font-light">
-								{exp.company}
-							</h1>
+							<h1 className="text-lg sm:text-2xl font-semibold sm:font-light">{exp.company}</h1>
 							<span className="block h-4 w-[1px] bg-black"></span>
 							<span className="text-xs sm:text-lg leading-5 font-light">{exp.date}</span>
 						</div>

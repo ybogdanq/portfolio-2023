@@ -6,26 +6,26 @@ export interface ISkill {
 export const skills: ISkill[] = [
 	{
 		type: 'Frameworks & Libs',
-		items: ['React', 'Next.js', 'Vue 2', 'Node', 'Nest.js', 'Express', 'Serverless', 'Koa']
+		items: ['React', 'Nest.js', 'Node', 'Express', 'SwiftUI']
 	},
 	{
 		type: 'Styling',
-		items: ['CSS', 'SCSS', 'Tailwind', 'ChakraUI', 'Bootstrap']
+		items: ['Tailwind', 'Shadcn', 'CSS', 'SCSS']
 	},
 	{
-		type: 'Databases and ORMs',
-		items: ['PostgreSQL', 'MongoDB', 'DynamoDB', 'Redis', 'Mongoose', 'Prisma', 'TypeOrm']
+		type: 'DBs & ORMs',
+		items: ['PostgreSQL', 'MongoDB', 'Redis', 'Mongoose', 'Prisma', 'TypeOrm']
 	},
 	{
 		type: 'State managers',
-		items: ['Redux', 'MobX', 'VueX', 'TanStack Query', 'GraphQl']
+		items: ['TanStack Query', 'Redux', 'Apollo GraphQl']
 	},
 	{
 		type: 'Apps',
-		items: ['Jira', 'ClickUp', 'GitHub', 'Slack', 'Figma', 'Photoshop']
+		items: ['GitHub', 'Jira', 'Notion', 'Slack', 'Figma']
 	},
 	{
 		type: 'Environment',
-		items: ['Visual Studio', 'Git Bash', 'Command', 'Prompt', 'Docker']
+		items: ['Visual Studio', 'Nvim', 'Docker', 'zsh']
 	}
 ]
